@@ -1,0 +1,140 @@
+body{
+    background-image: url(./pexels-rachel-claire-4992652.jpg);
+    background-size: cover;
+    
+}
+.pic{
+    opacity: 0.7;
+    height: 120%;
+    width: 120%;
+}
+
+
+.navbar{
+    background-color: #333;
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    float:left;
+    color:  #f2f2f2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 240px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.navbar a.Active{
+    background-color: #04AA6D;
+    color:white;
+
+
+}
+
+
+.text {
+    position: absolute;
+    bottom: 300px;
+    right: 200px;
+    left:50px;
+    top: 80px;
+    height: 1300px;
+    width:800px;
+    text-align:left;
+    color:white;
+    background-color:darkolivegreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:inherit;
+    opacity: 0.8;
+    font-size: 21px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+    float: left;
+  }
+
+ul{
+    text-align: left;
+    font-size: 21px;
+    font-style:italic;
+}
+
+#search{
+   
+    height: 30px;
+    margin-left:900px;
+    background-color: #04AA6D;
+    font-size: 18px;
+    font-family:monospace;
+    margin-top:30px;
+    color:rgb(0, 0, 0);
+    
+}
+::placeholder{
+    color:rgb(255, 255, 255);
+}
+
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    color:#04AA6D;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 1200px;
+    background-image: url(./pexels-pixabay-70365.jpg);
+    
+    }
+   
+    
+
+    .tab button {
+    display: block;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    }
+    
+    
+
+    .tab button.active {
+    background-color:#04AA6D;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    }
+    
+   
+    .tabcontent {
+    float: right;
+    padding: 0px 12px;
+    width: 60%;
+    border-left: none;
+    height: 1300px;
+    display: none;
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    font-size: 20px;
+    top: -50px;
+    }
+    
+   
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }

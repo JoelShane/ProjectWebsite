@@ -1,0 +1,95 @@
+body{
+    background-image: url(./pexels-darius-krause-2609107.jpg);
+    
+
+   
+}
+.pic{
+    opacity: 0.9;
+    height: 120%;
+    width: 120%;
+}
+
+
+.navbar{
+    background-color: #333;
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+    
+}
+
+.navbar a {
+    float:left;
+    color:  #f2f2f2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 240px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.navbar a.Active{
+    background-color: #04AA6D;
+    color:white;
+}
+.text {
+    position:absolute;
+    bottom: 100px;
+    right: 200px;
+    left:50px;
+    top: 80px;
+    height: 1500px;
+    width:800px;
+    text-align:left;
+    color:white;
+    background-color:darkolivegreen;
+    padding-left: 20px;
+    padding-right: 20px;
+     opacity: 0.8;
+    font-size: 21px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+    
+  }
+#sub{
+    position:absolute;
+      height: 600px;
+      width: 350px;
+      left: 950px;
+      top: 80px;
+      opacity: 0.8;
+      border-radius: 10px;
+      color:#f2f2f2;
+      background-color:darkolivegreen;
+      font-family:'Courier New', Courier, monospace;
+      text-align:center;
+
+}
+ul{
+    text-align: left;
+    font-size: 21px;
+   
+   
+  
+}
+p{
+    font-weight:bolder;
+    color:rgb(255, 255, 255);
+    font-size:23px;
+
+}
+h2{
+    font-size:35px;
+    color:#052e00d0;
+    text-decoration:solid;
+ 
+}
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    color:#04AA6D;
+}

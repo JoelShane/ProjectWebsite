@@ -1,0 +1,73 @@
+body{
+    background:linear-gradient(60deg, #3d9776, rgb(104, 151, 98),rgb(230, 230, 117));
+}
+
+
+
+ .navbar{
+    background-color: #333;
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+     
+}
+
+.navbar a {
+    float:left;
+    color:  #f2f2f2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 240px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.navbar a.Active{
+    background-color: #04AA6D;
+    color:white;
+  
+}
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    color:#053b27;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  

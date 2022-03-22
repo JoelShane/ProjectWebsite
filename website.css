@@ -1,0 +1,112 @@
+/* Styling the home page and navbar */
+body{
+    background-image: url(./pexels-elias-tigiser-1083342.jpg);
+}
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    color:#04AA6D;
+ 
+}
+
+.navbar{
+    background-color: #333;
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+    
+}
+
+.navbar a {
+    float: left;
+    color:  #f2f2f2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 230px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.navbar a :hover{
+    background-color: #04aa6d;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+
+
+.navbar a.Active{
+    background-color: #04AA6D;
+    color:white;
+}
+.img{
+    opacity: 0.8;
+   
+}
+
+.text {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    left:50px;
+    top: 400px;
+    height: 875px;
+    width:800px;
+    text-align:left;
+    color:rgb(0, 0, 0);
+    background-color:darkolivegreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:inherit;
+    opacity: 0.8;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+  }
+
+
+
+  /* Styling the to do list */
+  #app{
+      position: absolute;
+      height: 600px;
+      width: 300px;
+      left: 110%;
+      top:1%;
+      transform: (-70% ,-40%);
+      padding: 10px;
+      background-color:darkolivegreen;
+      opacity:0.7;
+      font-family:'Courier New', Courier, monospace;
+      border-radius: 5px;
+
+  }
+
+  
+
+  h2{
+    color:#052c05;
+    font-size: 40px;
+   
+    
+}
+
+li{
+    font-size: 20px;
+    font-family:cursive;
+    color:black;
+}
+/* Editing video area */
+video{
+    height: 100%;
+    width: 150%;
+    border-radius: 10px;
+    
+}
+
+
+

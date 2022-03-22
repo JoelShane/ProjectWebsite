@@ -1,0 +1,81 @@
+body{
+    background:linear-gradient(60deg, #3d9776, rgb(104, 151, 98),rgb(230, 230, 117));
+}
+
+
+
+ .navbar{
+    background-color: #333;
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+     
+}
+
+.navbar a {
+    float:left;
+    color:  #f2f2f2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 240px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.navbar a.Active{
+    background-color: #04AA6D;
+    color:white;
+  
+
+}
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    color:#053b27;
+}
+
+
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left:90px;
+    margin-left:60px;
+}
+.column{
+    flex:45%;
+    max-width:30%;
+    padding: 5px;
+}
+
+.column img{
+
+    margin-top:  8px;
+    vertical-align:middle;
+    width:100%;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+
+
+img:hover{
+    animation:shake 1s;
+animation-iteration-count: infinite;}
+
+@keyframes shake {
+
+10% { transform: translate(-1px, -2px) rotate(-5deg); }
+
+30% { transform: translate(3px, 2px) rotate(5deg); }
+
+50% { transform: translate(-1px, 2px) rotate(-7deg); }
+
+70% { transform: translate(3px, 1px) rotate(-5deg); }
+
+90% { transform: translate(1px, 2px) rotate(3deg); }
+
+}

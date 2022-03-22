@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="website.css">
+    <title>Pearl of the Indian Ocean</title>
+ 
+</head>
+
+<body>
+  
+    <h1><b>Pearl of the Indian Ocean</b></h1>
+  
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="navbar">
+      <a Class ="Active" href="./website.html" > <i class ="fa fa-fw fa-home"></i> Home</a>
+      <a href="./Explore.html" >  <i class ="fa fa-fw fa-search"></i>Explore</a>
+      <a href="./Tourist.html" >  <i class ="fa fa-fw fa-list"> </i>Tourist Information</a>
+      <a href="./About.html" >  <i class ="fa fa-fw fa-camera"></i>Gallery Portfolio</a>
+      <a href="./Contact.html" ><i class ="fa fa-fw fa-phone"></i>Contact Us</a>
+     
+  </div>
+  
+  <img class="img" src="./pexels-elias-tigiser-1083342.jpg" alt="forest" height="2000px" width ="1340px">
+  <div class ="text">
+
+    <h2>Why only SriLanka??</h2>
+    <p>With many sites and scenes bottled up in to a small island, a traveller could be riding the waves in the dawn and admiring the green
+         carpeted mountains by dusk. Travel destinations in <b style="color: rgb(255, 196, 0);">Sri Lanka </b>provide an array of holiday 
+         experience from sun kissed beach holidays to a marathon of wildlife watching, adrenaline pumping adventure sports and pilgrimage to 
+         some of the oldest cities in the world.</p>
+
+<p>The smiles and hospitality of<b style="color: rgb(255, 196, 0);"> Sri Lanka </b>are world famous and so are its spicy food, exotic fruits, 
+    and an array of sweetmeats found nowhere in the world. With so many cultures living next to each other life in
+     <b style="color: rgb(255, 196, 0);" >Sri Lanka</b> 
+    continues among a series of festivities throughout the year, an ideal recipe for fun and leisure.</p>
+
+<p>The smiles and hospitality of Sri Lanka are world famous and so are its spicy food, exotic fruits, and an array of sweetmeats 
+    found nowhere in the world. With so many cultures living next to each other life in <b style="color: rgb(255, 196, 0);"> Sri Lanka </b>
+    continues among a series of throughout the year, an ideal recipe for fun and leisure.</p>
+
+<video controls src="./Sri Lanka - Heart of the Indian Ocean(720P_HD).mp4"></video>
+
+
+
+
+
+<div id="app">
+  
+        <h2> <marquee behavior="slide" direction="left">Todo List</marquee> </h2>
+       
+
+    
+
+        <input type="text" v-model ="todo">
+        <input style="width:90px; border-radius: 10px 0px 10px 0px; font-weight:bolder; background-color:rgb(3, 255, 3); font-size: 15px;"   type="submit" value ="Add Task" @click="storeTodo" >
+   
+        <ol style="font-family: 'Courier New', Courier, monospace; font-size: 15px; font-weight:bolder;">
+           <li v-for="todo in todos">
+              {{todo}} 
+              
+
+            
+         
+        </ol>
+    
+
+</div>
+<script src="http://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+    new Vue({
+        el:'#app',
+
+        data:{
+         
+            todo: '',
+            todos:[]
+        },
+
+
+        methods: {
+            storeTodo(){
+                this.todos.push(this.todo)
+                this.todo=''
+            }
+
+           
+        }
+    })
+</script>
+
+
+</div>
+
+</body>
+</html>
